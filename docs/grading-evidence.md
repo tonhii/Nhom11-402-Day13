@@ -45,8 +45,8 @@
   {"service":"api","error_type":"RuntimeError","payload":{"detail":"Vector store timeout"},"event":"request_failed","session_id":"s01","correlation_id":"req-7997d76f","user_id_hash":"2055254ee30a","feature":"qa","env":"dev","level":"error","ts":"2026-04-20T08:27:35.049818Z"}
   ```
   → `error_type: RuntimeError` + `detail: "Vector store timeout"` xác nhận RAG layer bị lỗi.
-- [x] **Metrics snapshot khi `cost_spike`**: `avg_cost_usd` tăng từ **$0.0022 → $0.0038/req**, `tokens_out_total` tăng từ ~278 → ~571 token/req (×4 đúng như thiết kế incident).
-- [x] **Ảnh Dashboard khi có lỗi**: ![D_incident_tool_fail](images/D_incident_tool_fail.png)
++ [x] **Metrics snapshot khi `cost_spike`**: `avg_cost_usd` tăng từ **$0.0021 → $0.0034/req** (≈×1.6); `tokens_out` trung bình tăng từ ~132 → ~217 token/req (≈×1.6).
++ [x] **Ảnh Dashboard khi có lỗi**: ![D_incident_tool_fail](images/D_incident_tool_fail.png)
 
 ### 👤 Member E: Dashboard & Evidence
 - [ ] **Dashboard (Đủ 6 panels)**: `[Link ảnh]`
