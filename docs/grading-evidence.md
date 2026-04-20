@@ -17,9 +17,11 @@
 ## 🛠 Chi tiết bằng chứng theo vai trò
 
 ### 👤 Member A: Logging & PII
-- [ ] **JSON logs showing correlation_id**: `[Dán link ảnh hoặc log mẫu ở đây]`
-- [ ] **Log line with PII redaction**: `[Dán link ảnh ở đây]`
-- [ ] **Validation Score**: `.../100` (Chạy `python scripts/validate_logs.py`)
+- [X] **JSON logs showing correlation_id**: ![logs](/docs/images/A_logs.png)
+- [X] **Log line with PII redaction**: ![alt text](/docs/images/A_pii_redacted.png)
+{"service": "api", "payload": {"message_preview": "Ch\u00e0o ad, email c\u1ee7a t\u00f4i l\u00e0 [REDACTED_EMAIL] v\u00e0 [REDACTED_ADDRESS_VN] \u0111i\u1ec7n tho\u1ea1i l..."}, "event": "request_received", "model": "gpt-4", "env": "dev", "user_id_hash": "7f56369cbde6", "feature": "customer_support", "session_id": "session_alpha_99", "correlation_id": "req-20fb636f", "level": "info", "ts": "2026-04-20T08:29:35.374780Z"}
+- [X] **Validation Score**: `100/100` (Chạy `python scripts/validate_logs.py`)
+![alt text](/docs/images/A_validation_score.png)
 
 ### 👤 Member B: Tracing & Enrichment
 - [ ] **Langfuse trace list (>= 10 traces)**: `[Link ảnh]`

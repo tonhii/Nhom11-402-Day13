@@ -6,7 +6,7 @@
 - [GROUP_NAME]: 
 - [REPO_URL]: 
 - [MEMBERS]:
-  - Member A: [Name] | Role: Logging & PII
+  - Member A: [Hoàng Văn Kiên] | Role: Logging & PII
   - Member B: [Name] | Role: Tracing & Enrichment
   - Member C: [Name] | Role: SLO & Alerts
   - Member D: [Name] | Role: Load Test & Incident Injection
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Group Performance (Auto-Verified)
-- [VALIDATE_LOGS_FINAL_SCORE]: /100
+- [VALIDATE_LOGS_FINAL_SCORE]: 100/100
 - [TOTAL_TRACES_COUNT]: 
 - [PII_LEAKS_FOUND]: 
 
@@ -56,9 +56,9 @@
 
 ## 5. Individual Contributions & Evidence
 
-### [MEMBER_A_NAME]
-- [TASKS_COMPLETED]: 
-- [EVIDENCE_LINK]: (Link to specific commit or PR)
+### [MEMBER_A: Hoàng Văn Kiên]
+- [TASKS_COMPLETED]: logging + PII
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/ce432426f2a69610399324ed63d01f3a32862a09 )
 
 ### [MEMBER_B_NAME]
 - [TASKS_COMPLETED]: 
