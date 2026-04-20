@@ -73,7 +73,7 @@
   - Triggered incidents with `scripts/inject_incident.py` for `rag_slow`, `tool_fail`, and `cost_spike` scenarios.
   - Collected and analyzed metrics (latency P95/P99, error breakdown, cost) and identified root cause for `tool_fail` (vector store timeout).
   - Documented findings and results in `docs/grading-evidence.md` and captured dashboard screenshot(s).
-- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/3e65ba2237f27b96171863846f4245011fb74911)
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/3e65ba2237f27b96171863846f4245011fb74911 )
 
 ### [MEMBER_E_NAME]
 - [TASKS_COMPLETED]: 
