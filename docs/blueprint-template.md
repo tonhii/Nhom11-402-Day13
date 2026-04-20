@@ -60,9 +60,10 @@
 - [TASKS_COMPLETED]: logging + PII
 - [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/ce432426f2a69610399324ed63d01f3a32862a09 )
 
-### [MEMBER_B_NAME]
+### [MEMBER_B:]
 - [TASKS_COMPLETED]: 
 - [EVIDENCE_LINK]: 
+
 
 ### Ha Huu An
 - [TASKS_COMPLETED]: Thiết lập SLO trong config/slo.yaml, cấu hình Alert Rules trong config/alert_rules.yaml, và hoàn thiện Runbook trong docs/alerts.md. Phân tích và xử lý sự cố rag_slow.
@@ -75,8 +76,8 @@
   - Documented findings and results in `docs/grading-evidence.md` and captured dashboard screenshot(s).
 - [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/3e65ba2237f27b96171863846f4245011fb74911 )
 
-### [MEMBER_E_NAME]
-- [TASKS_COMPLETED]: 
+### [MEMBER_E: Lê Thị Phương]
+- [TASKS_COMPLETED]: Xây dựng Dashboard 6 panels trên Langfuse (Latency, Traffic, Errors, Cost, Tokens, Quality). Chạy load_test.py để lấy dữ liệu thực tế và chụp ảnh dashboard làm bằng chứng.
 - [EVIDENCE_LINK]: 
 
 ### [MEMBER_F_NAME]

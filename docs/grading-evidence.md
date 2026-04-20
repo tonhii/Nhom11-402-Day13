@@ -9,7 +9,7 @@
 | **B** | Tracing & Tags | 🟦 Pending | |
 | **C** | SLO & Alerts | 🟦 Pending | |
 | **D** | Load Test & Incident | ✅ Done | 3 scenarios: rag_slow, tool_fail, cost_spike |
-| **E** | Dashboard & Evidence | 🟦 Pending | |
+| **E** | Dashboard & Evidence | ✅ Done | Hoàn thành 6 panels Layer-2 (Latency, Traffic, Errors, Cost, Tokens, Quality) |
 | **F** | Blueprint & Demo | 🟦 Pending | Chốt báo cáo sau cùng |
 
 ---
@@ -49,7 +49,7 @@
 + [x] **Ảnh Dashboard khi có lỗi**: ![D_incident_tool_fail](images/D_incident_tool_fail.png)
 
 ### 👤 Member E: Dashboard & Evidence
-- [ ] **Dashboard (Đủ 6 panels)**: `[Link ảnh]`
+- [ ] **Dashboard (Đủ 6 panels)**: ![Dashboard 6 Panels](/docs/images/E_dashboard_all.png)
 - [ ] **Cấu trúc thư mục ảnh**: ✅ Sạch sẽ, đúng quy định.
 
 ---
