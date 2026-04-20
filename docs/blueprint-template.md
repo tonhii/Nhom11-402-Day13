@@ -63,7 +63,7 @@
 
 ### [MEMBER_B: Lê Hoàng Long]
 - [TASKS_COMPLETED]: Cài đặt Langfuse callback, tích hợp Tracing trực tiếp vào quá trình inference của hệ thống. Kiểm tra thu nhận dữ liệu trace dạng Waterfall trên dashboard.
-- [EVIDENCE_LINK]: [BẤM VÀO ĐÂY ĐỂ DÁN LINK COMMIT GITHUB CỦA LONG] (Ví dụ: https://github.com/...)
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/2d7751ed52816dbd344fc67b6ab30c429305fd67)
 
 ### Hà Hữu An
 - [TASKS_COMPLETED]: Thiết lập SLO trong config/slo.yaml, cấu hình Alert Rules trong config/alert_rules.yaml, và hoàn thiện Runbook trong docs/alerts.md. Phân tích và xử lý sự cố.
@@ -79,11 +79,11 @@
 
 ### [MEMBER_E: Lê Thị Phương]
 - [TASKS_COMPLETED]: Xây dựng Dashboard 6 panels trên Langfuse bao phủ (Latency, Traffic, Errors, Cost, Tokens, Quality). Chạy giả lập load test để lấy dữ liệu metric thực tế.
-- [EVIDENCE_LINK]: [BẤM VÀO ĐÂY ĐỂ DÁN LINK COMMIT GITHUB CỦA PHƯƠNG]
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/3c03dbe92df7133d6f474e86bf227efc97cf4c22)
 
 ### Hồ Thị Tố Nhi
 - [TASKS_COMPLETED]: Role: Blueprint & Demo Lead. Tổng hợp kết quả đánh giá (grading evidence) toàn diện từ các thành viên trong nhóm, biên soạn báo cáo Blueprint Template tổng quan, rà soát lại tiến trình merge nhánh (git pull/merge) và hoàn thiện các bước chuẩn bị kết thúc bài lab.
-- [EVIDENCE_LINK]: (File báo cáo này do chính Hồ Thị Tố Nhi tổng hợp và push trong commit cuối cùng)
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/cd2598c513ebc5da41adf11c9dc6b13ff632a2b7)
 
 ---
 
