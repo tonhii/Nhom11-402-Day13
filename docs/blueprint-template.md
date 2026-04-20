@@ -9,8 +9,8 @@
   - Member A: [Hoàng Văn Kiên] | Role: Logging & PII
   - Member B: [Name] | Role: Tracing & Enrichment
   - Member C: Ha Huu An | Role: SLO & Alerts
-  - Member D: [Name] | Role: Load Test & Incident Injection
-  - Member E: [Lê Thị Phương] | Role: Dashboard & Evidence
+  - Member D: [Đỗ Văn Quyết] | Role: Load Test & Incident Injection
+  - Member E: [Name] | Role: Dashboard & Evidence
   - Member F: [Name] | Role: Blueprint & Demo Lead
 
 ---
@@ -68,9 +68,13 @@
 ### Ha Huu An
 - [TASKS_COMPLETED]: Thiết lập SLO trong config/slo.yaml, cấu hình Alert Rules trong config/alert_rules.yaml, và hoàn thiện Runbook trong docs/alerts.md. Phân tích và xử lý sự cố rag_slow.
 - [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/93bf87704a5165b966584b8c70119398e9f83b59 )
-### [MEMBER_D_NAME]
-- [TASKS_COMPLETED]: 
-- [EVIDENCE_LINK]: 
+### Đỗ Văn Quyết
+- [TASKS_COMPLETED]: Implemented and executed load testing and incident injection for the project:
+  - Ran `scripts/load_test.py` (multiple runs, concurrency tests) to measure baseline and stressed traffic.
+  - Triggered incidents with `scripts/inject_incident.py` for `rag_slow`, `tool_fail`, and `cost_spike` scenarios.
+  - Collected and analyzed metrics (latency P95/P99, error breakdown, cost) and identified root cause for `tool_fail` (vector store timeout).
+  - Documented findings and results in `docs/grading-evidence.md` and captured dashboard screenshot(s).
+- [EVIDENCE_LINK]: (https://github.com/tonhii/Nhom11-402-Day13/commit/3e65ba2237f27b96171863846f4245011fb74911)
 
 ### [MEMBER_E: Lê Thị Phương]
 - [TASKS_COMPLETED]: Xây dựng Dashboard 6 panels trên Langfuse (Latency, Traffic, Errors, Cost, Tokens, Quality). Chạy load_test.py để lấy dữ liệu thực tế và chụp ảnh dashboard làm bằng chứng.
