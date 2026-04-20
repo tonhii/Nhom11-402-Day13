@@ -5,8 +5,8 @@
 ## 📈 Trạng thái tổng quát
 | Thành viên | Vai trò | Trạng thái | Ghi chú |
 |---|---|---|---|
-| **A** | Logging & PII | 🟦 Pending | |
-| **B** | Tracing & Tags | 🟦 Pending | |
+| **A** | Logging & PII | ✅ Done | Đã log đủ JSON, ẩn PII, score 100/100 |
+| **B** | Tracing & Tags | ✅ Done | Đã log trace lên Langfuse |
 | **C** | SLO & Alerts | ✅ Done | Alert Rules & Runbook completed (P95: 151ms) |
 | **D** | Load Test & Incident | ✅ Done | 3 scenarios: rag_slow, tool_fail, cost_spike |
 | **E** | Dashboard & Evidence | ✅ Done | Hoàn thành 6 panels Layer-2 (Latency, Traffic, Errors, Cost, Tokens, Quality) |
@@ -24,9 +24,9 @@
 ![alt text](/docs/images/A_validation_score.png)
 
 ### 👤 Member B: Tracing & Enrichment
-- [ ] **Langfuse trace list (>= 10 traces)**: `[Link ảnh]`
-- [ ] **One full trace waterfall**: `[Link ảnh]`
-- [ ] **Trace ID tiêu biểu**: `[ID]` (Dùng để giải thích span trong báo cáo)
+- [x] **Langfuse trace list (>= 10 traces)**: ![Trace List](/docs/images/B_trace_list.jpg)
+- [x] **One full trace waterfall**: ![Trace Waterfall](/docs/images/B_trace_waterfall.png)
+- [x] **Trace ID tiêu biểu**: `[e4a39177-411c-4806-8474-36669d124580]` (Dùng để giải thích span trong báo cáo)
 
 ### 👤 Member C: SLO & Alerts
 - [x] **Alert rules screenshot**: ![Alert Rules](/docs/images/C_alert_rules.png)
@@ -68,8 +68,8 @@
 - [x] **Ảnh Dashboard khi có lỗi**: ![D_incident_tool_fail](/docs/images/D_incident_tool_fail.png)
 
 ### 👤 Member E: Dashboard & Evidence
-- [ ] **Dashboard (Đủ 6 panels)**: ![Dashboard 6 Panels](/docs/images/E_dashboard_all.png)
-- [ ] **Cấu trúc thư mục ảnh**: ✅ Sạch sẽ, đúng quy định.
+- [x] **Dashboard (Đủ 6 panels)**: ![Dashboard 6 Panels](/docs/images/E_dashboard_all.png)
+- [x] **Cấu trúc thư mục ảnh**: ✅ Sạch sẽ, đúng quy định.
 
 ---
 
